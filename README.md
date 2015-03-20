@@ -1,5 +1,8 @@
-site: http://assignment4-tkle33.rhcloud.com/
-controller: http://assignment4-tkle33.rhcloud.com/control-2btn.html
+PowerSlyde - HTML5 Presentations
+Created by Tyler Klepsch, Becky Putnam, Geoff Harper
+
+Site Location: http://assignment4-tkle33.rhcloud.com/
+Controller: http://assignment4-tkle33.rhcloud.com/control-2btn.html
 
 NOTES:
 
