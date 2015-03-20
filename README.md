@@ -1,5 +1,5 @@
 site: http://assignment4-tkle33.rhcloud.com/
-controller: http://assignment4-tkle33.rhcloud.com/2btn-controller.html
+controller: http://assignment4-tkle33.rhcloud.com/control-2btn.html
 
 NOTES:
 
