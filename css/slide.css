@@ -1,0 +1,169 @@
+/*SLIDESHOW STYLES*/
+
+
+/*Header*/
+#empty{
+	width: 100%;
+	height: 50px;
+	position:absolute;
+	top: 0;
+	z-index: 1000;	
+}
+header{
+	display: none;
+}
+.seeMe{
+	display: block !important;
+	position: absolute;
+	z-index: 900;
+}
+
+/*Key Generator*/
+.key-output{
+	background: rgba(1,8,12, 0.9);
+}
+.key-header{
+	background: #600019;
+}
+.key-header h2{
+	padding: 10px;
+}
+#key-container{
+	position: relative;
+	width: 75%;
+	margin: 0 auto;
+	top: 100px;
+	background:#fafafa;
+}
+#key-container p{
+	padding: 0 10px;
+	font-size: 1.25em;
+	line-height: 1.5em;
+}
+.key-create, .creation-continue{
+	color: #fff;
+	border: none;
+	font-family: 'Raleway', sans-serif;
+	display: inline-block;
+	position: relative;
+	margin: 10px;
+}
+#key-container label{
+	font-size: 1.5em;
+	margin: 10px;
+}
+#key-container input{
+	font-size: 1.25em;
+
+}
+
+/*SLIDES*/
+.slideshow-pres{
+	min-width: 960px;/*This is because the presentation is only meant to be viewed on desktop - the slides will not work properly if viewed on other devices*/
+}
+#slide1{
+	background: url(../images/bg_slide1.jpg) center center fixed;
+	background-size: cover;
+}
+#slide1 h2{
+	font-size: 4.25em;
+	margin: 50px 0 0;
+	color: #fafafa;
+} 
+#slide1 p{
+	color: #8ab1ce;
+}
+#slide2{
+	background: url(../images/slide-images/slide2.jpg) center center fixed;
+	background-size: cover;
+}
+#slide3{
+	background: url(../images/slide-images/slide3.jpg) center center fixed;
+	background-size: cover;
+}
+#slide4{
+	background: url(../images/slide-images/slide4.jpg) center center fixed;
+	background-size: cover;
+}
+#slide5{
+	background: url(../images/slide-images/slide5.jpg) center center fixed;
+	background-size: cover;
+}
+#slide6{
+	background: url(../images/slide-images/slide6.jpg) center center fixed;
+	background-size: cover;
+}
+#slide7{
+	background: url(../images/slide-images/slide7.jpg) center center fixed;
+	background-size: cover;
+}
+#slide8{
+	background: url(../images/slide-images/slide8.jpg) center center fixed;
+	background-size: cover;
+}
+#slide9{
+	background: url(../images/slide-images/slide9.jpg) center center fixed;
+	background-size: cover;
+}
+.slide img{
+	max-width: 40%;
+}
+
+/*Navigation for slides*/
+.navbtn{
+	background: #600019;
+	box-shadow: 2px 2px 0 #510013;
+	width: 150px;
+    font-size: 4.5em;
+    margin: 0 auto;
+    padding: 0 30px 10px;
+    margin-top: 20px;
+    transition: all 250ms;
+    -webkit-transition: all 250ms;
+}
+.navbtn:hover, .navbtn:focus{
+	background: #510013 !important;
+}
+.controls-screen{
+	height: 100vh;
+}
+.outside{
+	display: table;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.inside{
+	display: table-cell;
+    vertical-align: middle;
+}
+.control-btns{
+	width: 95%;
+	margin: 0 auto;
+}
+.control-option:first-child{
+	display: inline-block;
+	float: left;
+}
+.control-option:last-child{
+	display:inline-block;
+	float: right;
+}
+.control-option h3{
+	text-align: center;
+	color: #01080c;
+}
+/*Media Query*/
+@media screen and (max-width: 768px){
+	#key-container input{
+		width: 90%;
+		margin: 10px;
+	}
+	.key-header h2{
+		font-size: 1.5em;
+	}
+	#key-container p{
+		font-size: 1em;
+		line-height: 1.25em;
+	}
+}

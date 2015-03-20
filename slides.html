@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->  <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=1024, user-scalable=no">
+
+	<title>Your Slideshow Presenter</title>
+	
+	<!-- Required stylesheet -->
+	<link rel="stylesheet" href="core/deck.core.css">
+	
+	<!-- Extension CSS files go here. -->
+	<link rel="stylesheet" href="extensions/goto/deck.goto.css">
+	<link rel="stylesheet" href="extensions/menu/deck.menu.css">
+	<link rel="stylesheet" href="extensions/navigation/deck.navigation.css">
+	<link rel="stylesheet" href="extensions/status/deck.status.css">
+	<link rel="stylesheet" href="extensions/hash/deck.hash.css">
+	<link rel="stylesheet" href="extensions/scale/deck.scale.css">
+	
+	<link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/slide.css">
+
+	<!-- Style theme. More available in /themes/style/ or create your own. -->
+	<link rel="stylesheet" href="themes/style/web-2.0.css">
+	
+	<!-- Transition theme. More available in /themes/transition/ or create your own. -->
+	<link rel="stylesheet" href="themes/transition/horizontal-slide.css">
+    
+    <link rel="stylesheet" href="css/geoffStyle.css" />
+	
+	<!-- Required Modernizr file -->
+	<script src="modernizr.custom.js"></script>
+	<script src="js/modernizr-2.6.2.min.js"></script>
+</head>
+<body class="slideshow-pres">
+
+    <div class="overlay key-output">
+    	<div id="key-container">
+    		<div class="key-header">
+    			<h2>Key Generator</h2>
+    		</div>
+    		<p>Generate a key for both your desktop and mobile devices to sync your presentation</p>
+	        <button class="key-create btn">Make a Key</button>
+	        <label>Key: <input class="created-key" type="text" /></label>
+	        <button class="creation-continue btn">Continue</button>
+	    </div>
+    </div>
+    <!--<header class="header-show">
+		<div class="header-content">
+			<div class="branding">
+				<h1><a href="index.html">PowerSlyde</a></h1>
+			</div>
+			<nav>
+				<ul class="nav">
+					<li><a href="#"><img src="images/user_icon.png" alt="user icon"><p>Adam</p></a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<div id="empty">
+	</div>-->
+<!-- Begin slides. Just make elements with a class of slide. -->
+
+<div  class="deck-container">
+<section class="slide" id="slide1">
+	<h2>Welcome to Powerslide!</h2>
+	<div>
+		<p>Navigate the Presentation with your mobile device!</p>
+	</div>
+</section>
+
+<section class="slide"id="slide2">
+
+	<h2>A new way to control your presentation!</h2>
+	<ul>
+		<li class="slide">Present from anywhere with internet access. No software required!</li>
+		<li class="slide">Use your smart phone, keyboard or mouse to navigate the presentation</li>
+		<li class="slide">Create your own presentation with html</li>
+	</ul>
+</section>
+
+<section class="slide" id="slide3">
+	<div class="deck-slide-scaler">
+	<h2>How does it work?</h2>
+         <h3>Create slides Using HTML</h3>
+         <p>With a little HTML knowledge, create slides inside of sections named "class" </p>
+		 <pre><code>&lt;section class="slide"&gt;<br>	&lt;h1&gt;My Awesome Slide&lt;/h1&gt;<br>&lt;/section&gt;</code></pre>
+   </div>
+</section>
+
+<section class="slide" id="slide4">
+	<h2>How does it work?</h2>
+	<div class="slide">
+         <h3>Animate your slide with CSS3</h3>
+         <p>simply adding a "slide" class to your section or div tag adds a fancy animation to your slides.</p>
+		 <pre><code>&lt;section class="slide"&gt;<br>	&lt;h1&gt;My Awesome Slide&lt;/h1&gt;<br>&lt;/section&gt;</code></pre>
+	</div>
+</section>
+
+<section class="slide" id="slide5">
+	<h1>What else can you do?</h1>
+</section>
+
+<section class="slide" id="slide6">
+	<h2>Show Interesting Quotes</h2>
+		<blockquote>
+		“Talk is cheap. Show me the code.”<br>
+		― <a href="#">Linus Torvalds</a>
+		</blockquote>
+		<p>Its as simple as putting a blockquote tag</p>
+		<pre><code>&lt;blockquote&gt;“Talk is cheap. Show me the code.”― &lt;a href="#"&gt;Linus Torvalds&lt;/a&gt;&lt;/blockquote&gt;</code></pre>
+</section>
+
+<section class="slide" id="slide7">
+	<h2>Embed an Image</h2>
+	<img src="images/silly_cat.jpg">
+	<pre><code>&lt;img src="http://placekitten.com/600/375" alt="Kitties"&gt;</code></pre>
+</section>
+
+<section class="slide" id="slide8">
+	<h2>Embed a Video</h2>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/PKffm2uI4dk" frameborder="0" allowfullscreen></iframe>
+	<pre><code>&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/PKffm2uI4dk" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</code></pre>
+</section>
+
+<section class="slide" id="slide9">
+	<h1>The End!</h1>
+</section>
+<!-- End slides. -->
+
+
+<!-- Begin extension snippets. -->
+
+<!-- deck.navigation snippet -->
+<a href="#" class="deck-prev-link" title="Previous">&#8592;</a>
+<a href="#" class="deck-next-link" title="Next">&#8594;</a>
+
+<!-- deck.status snippet -->
+<p class="deck-status">
+	<span class="deck-status-current"></span>
+	/
+	<span class="deck-status-total"></span>
+</p>
+
+<!-- deck.goto snippet -->
+<form action="." method="get" class="goto-form">
+	<label for="goto-slide">Go to slide:</label>
+	<input type="text" name="slidenum" id="goto-slide" list="goto-datalist">
+	<datalist id="goto-datalist"></datalist>
+	<input type="submit" value="Go">
+</form>
+
+<!-- deck.hash snippet -->
+<a href="." title="Permalink to this slide" class="deck-permalink">#</a>
+</div>
+<!-- End extension snippets. -->
+
+
+<!-- Required JS files. -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="jquery-1.7.2.min.js"></script>
+<script src="core/deck.core.js"></script>
+
+<!-- Extension JS files. Add or remove as needed. -->
+<script src="core/deck.core.js"></script>
+<script src="extensions/hash/deck.hash.js"></script>
+<script src="extensions/menu/deck.menu.js"></script>
+<script src="extensions/goto/deck.goto.js"></script>
+<script src="extensions/status/deck.status.js"></script>
+<script src="extensions/navigation/deck.navigation.js"></script>
+<script src="extensions/scale/deck.scale.js"></script>
+
+<!-- Initialize the deck. You can put this in an external file if desired. -->
+<script>
+	$(function() {
+		$.deck('.slide');
+	});
+</script>
+
+<!-- controldeck.js -->
+<script src="'http://' + location.hostname + ':3000/socket.io/socket.io.js'."></script>
+<script src="/controldeck-slides.js"></script>
+<script src="js/geoffScript.js"></script>
+<!--<script src="js/slide.js"></script>-->
+</body>
+</html>

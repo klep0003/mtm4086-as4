@@ -1,0 +1,14 @@
+.overlay {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    height: 100vh;
+}
+
+.creation-continue {
+    display: none;
+}
+
+.controller-continue {
+    display: none;
+}
